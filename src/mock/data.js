@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
-  name: 'Chetan',
+  name: 'Chetan Kini',
   subtitle: 'Fullstack Developer | OSS Contributor',
   cta: 'Explore',
 };
@@ -18,8 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    "Hey there! I appreciate you swinging by to take a look at my portfolio! My name is Chetan Kini and for around the past 2 years, I've been building and collaborating on software for and with the open source community",
+  paragraphTwo: 'While my strengths lie in backend development',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -68,12 +69,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/ckini123',
     },
     {
       id: nanoid(),
