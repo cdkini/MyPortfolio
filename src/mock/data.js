@@ -31,9 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'okra.jpg',
     title: 'Okra',
-    info: 'An extensible scripting language written in Go.',
+    info: 'A toy scripting language written in Go.',
     info2:
-      'Looking to better understand language interpretation/compilation, I decided to embark on the daunting journey of designing and implementing my own programming language from the ground up. Although the language is largely procedural, it includes functionality to facilitate OOP.',
+      'Looking to better understand language interpretation/compilation, I decided to embark on the daunting journey of designing and implementing my own programming language from the ground up. Although the language is largely procedural, it includes features to facilitate object oriented programming.',
     url: 'https://repl.it/@ChetanKini/OkraPlayground',
     repo: 'https://github.com/cdkini/Okra', // if no repo, the button will not show up
   },
@@ -41,16 +41,26 @@ export const projectsData = [
     id: nanoid(),
     img: 'omni.png',
     title: 'Omni',
-    info: 'A distributed version control system',
-    info2: '',
+    info: 'A distributed version control system written in Java.',
+    info2:
+      "As someone that was a bit too reliant on memorizing Git workflows, I sought to better understand the software and its internals by recreating it.Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model, as well as reinforce concepts such as serialization and hashing.",
     url: 'https://repl.it/@ChetanKini/OmniPlayground',
     repo: 'https://github.com/cdkini/Omni', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'CareerBot',
+    info: 'A Discord bot used to track job postings from Indeed.com.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'RCSnake',
+    info: 'An implementation of the classic arcade game in Python and PyGame.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
