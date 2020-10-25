@@ -29,20 +29,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'okra.jpg',
     title: 'Okra',
     info: 'An extensible toy scripting language',
     info2: '',
-    url: '',
+    url: 'https://repl.it/@ChetanKini/OkraPlayground',
     repo: 'https://github.com/cdkini/Okra', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'omni.png',
     title: 'Omni',
     info: 'A distributed version control system',
     info2: '',
-    url: '',
+    url: 'https://repl.it/@ChetanKini/OmniPlayground',
     repo: 'https://github.com/cdkini/Omni', // if no repo, the button will not show up
   },
   {
