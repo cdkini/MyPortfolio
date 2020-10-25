@@ -31,8 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'okra.jpg',
     title: 'Okra',
-    info: 'An extensible toy scripting language',
-    info2: '',
+    info: 'An extensible scripting language written in Go.',
+    info2:
+      'Looking to better understand language interpretation/compilation, I decided to embark on the daunting journey of designing and implementing my own programming language from the ground up. Although the language is largely procedural, it includes functionality to facilitate OOP.',
     url: 'https://repl.it/@ChetanKini/OkraPlayground',
     repo: 'https://github.com/cdkini/Okra', // if no repo, the button will not show up
   },
