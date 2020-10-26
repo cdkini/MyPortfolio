@@ -52,17 +52,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'CareerBot',
-    info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
+    title: 'audiotherapy',
+    info: '',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'audiotherapy',
-    info: '',
+    img: 'career_bot.jpg',
+    title: 'CareerBot',
+    info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
