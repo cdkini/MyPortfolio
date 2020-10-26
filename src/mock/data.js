@@ -69,11 +69,11 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'cdkini.png',
+    img: 'cdkini.PNG',
     title: 'and more!',
     info: 'Check out my GitHub for further information!',
     info2:
-      "Whether it be building dev tools, writing APIs, or contributing to open-source, I'm always looking to use my skills to tackle varied technical projects!",
+      "Whether it be building dev tools, writing APIs, or contributing to open-source, I'm always looking to tackle varied technical projects and build up my skills!",
     url: 'https://github.com/cdkini',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
