@@ -63,7 +63,8 @@ export const projectsData = [
     img: 'career_bot.png',
     title: 'CareerBot',
     info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
-    info2: '',
+    info2:
+      "As an avid Discord user, I wanted to interact with the site's API to see if I could build anything useful. Although not overly complex, this bot has aided me in my job hunt and has even led to some freelance work, where I've helped different professional communities aggregate open opportunities.",
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
