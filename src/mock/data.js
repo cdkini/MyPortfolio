@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Chetan Kini | SWE', // e.g: 'Name | Developer'
+  title: 'Chetan Kini | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my portfolio', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio!', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -19,9 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! I appreciate you swinging by to take a look at my portfolio! My name is Chetan Kini and for around the past 2 years, I've been building and collaborating on software for and with the open source community",
-  paragraphTwo: 'While my strengths lie in backend development',
-  paragraphThree: '',
+    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to work towards a more equitable, knowledgable developer community.",
+  paragraphTwo:
+    'Although my formal education is in accounting, I caught the coding bug early in my career and have gradually pivoted towards software engineering. While my primary interests lie in backend development, I have experience with the entire stack, working in Python, Go, Java, JavaScript/TypeScript and frameworks such as ReactJS and Flask.',
+  paragraphThree:
+    "I'm driven by solving complex, technical problems and am always seeking new challenges to help me hone my craft. If you'd like to learn more about my background, please see my resume and projects below.",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -33,7 +35,7 @@ export const projectsData = [
     title: 'Okra',
     info: 'A toy scripting language written in Go.',
     info2:
-      'Looking to better understand language interpretation/compilation, I decided to embark on the daunting journey of designing and implementing my own programming language from the ground up. Although the language is largely procedural, it includes features to facilitate object oriented programming.',
+      'Looking to better understand language interpretation/compilation, I decided to try my hand at designing and implementing my own programming language from the ground up. Although the language is largely procedural, it includes features to facilitate object oriented programming.',
     url: 'https://repl.it/@ChetanKini/OkraPlayground',
     repo: 'https://github.com/cdkini/Okra', // if no repo, the button will not show up
   },
@@ -41,9 +43,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'omni.png',
     title: 'Omni',
-    info: 'A distributed version control system written in Java.',
+    info: 'A CLI version control system written in Java.',
     info2:
-      "As someone that was a bit too reliant on memorizing Git workflows, I sought to better understand the software and its internals by recreating it.Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model, as well as reinforce concepts such as serialization and hashing.",
+      "As someone that was a bit too reliant on memorizing Git workflows, I sought to better understand the software and its internals by recreating it. Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model while reinforcing concepts such as serialization and hashing.",
     url: 'https://repl.it/@ChetanKini/OmniPlayground',
     repo: 'https://github.com/cdkini/Omni', // if no repo, the button will not show up
   },
@@ -51,7 +53,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'CareerBot',
-    info: 'A Discord bot used to track job postings from Indeed.com.',
+    info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -59,19 +61,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'RCSnake',
-    info: 'An implementation of the classic arcade game in Python and PyGame.',
+    title: 'audiotherapy',
+    info: '',
     info2: '',
     url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'and more!',
+    info: 'Check out my GitHub for further information!',
+    info2:
+      "Whether it be building dev tools, writing APIs, or contributing to open-source, I'm always looking to use my skills to tackle varied technical projects!",
+    url: 'https://github.com/cdkini',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Interested in working together?',
+  btn: "Let's talk!",
+  email: 'chetan.d.kini@gmail.com',
 };
 
 // FOOTER DATA
