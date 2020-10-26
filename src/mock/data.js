@@ -69,7 +69,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'octocat.jpg',
     title: 'and more!',
     info: 'Check out my GitHub for further information!',
     info2:
