@@ -60,7 +60,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'career_bot.jpg',
+    img: 'career_bot.png',
     title: 'CareerBot',
     info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
     info2: '',
