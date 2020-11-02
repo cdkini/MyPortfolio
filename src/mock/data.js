@@ -51,9 +51,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'audiotherapy',
-    info: '',
+    img: 'pypcmgr.PNG',
+    title: 'pypcmgr',
+    info: 'A dev tool used to set up automated static analysis and testing. Written in Python and published to PyPI.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
