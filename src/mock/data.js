@@ -45,7 +45,7 @@ export const projectsData = [
     title: 'Omni',
     info: 'A CLI version control system written in Java.',
     info2:
-      "As someone that was a bit too reliant on memorizing Git workflows, I sought to better understand the software and its internals by recreating it. Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model while reinforcing concepts such as serialization and hashing.",
+      "As someone that struggles with Git from time to time, I sought to better understand the software and its internals by recreating it. Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model while reinforcing concepts such as serialization and hashing.",
     url: 'https://repl.it/@ChetanKini/OmniPlayground',
     repo: 'https://github.com/cdkini/Omni', // if no repo, the button will not show up
   },
@@ -54,18 +54,18 @@ export const projectsData = [
     img: 'pypcmgr.PNG',
     title: 'pypcmgr',
     info: 'A dev tool used to set up automated static analysis and testing. Written in Python and published to PyPI.',
-    info2: '',
+    info2: 'Through working on larger OSS projects, I\'ve come to understand the importance of a strong CI/CD pipelines. As a frequent user of tools such as black, flake8, and pytest, I wanted a way to easily create pre-commit hooks with a single command.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cdkini/pypcmgr', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'career_bot.png',
     title: 'CareerBot',
     info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
-    info2: '',
+    info2: 'As a frequent user of Discord (especially during quarantine), I decided to experiment with the API and come up with this little tool. If you\'re reading this, there\'s a chance that CareerBot is what brought us together!',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cdkini/CareerBot', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -75,7 +75,6 @@ export const projectsData = [
     info2:
       "Whether it be building dev tools, writing APIs, or contributing to open-source, I'm always looking to tackle varied technical projects and build up my skills!",
     url: 'https://github.com/cdkini',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
