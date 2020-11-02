@@ -73,7 +73,7 @@ export const projectsData = [
     title: 'and more!',
     info: 'Whether it be building dev tools, wrapping my head around Vim, or contributing to open-source, I\'m always looking to tackle varied technical projects and build up my skills!',
     info2: '',
-    url: 'https://github.com/cdkini',
+//     url: 'https://github.com/cdkini',
   },
 ];
 
