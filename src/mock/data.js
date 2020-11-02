@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to work towards a more equitable, knowledgable developer community.",
+    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to work towards a more equitable, knowledgable dev community.",
   paragraphTwo:
     'Although my formal education is in accounting, I caught the coding bug early in my career and have gradually pivoted towards software engineering. While my primary interests lie in backend development, I have experience with the entire stack, working in Python, Go, Java, JavaScript/TypeScript and frameworks such as ReactJS and Flask.',
   paragraphThree:
