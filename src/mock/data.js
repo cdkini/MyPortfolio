@@ -71,9 +71,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'cdkini.PNG',
     title: 'and more!',
-    info: 'Check out my GitHub for further information!',
-    info2:
-      "Whether it be building dev tools, writing APIs, or contributing to open-source, I'm always looking to tackle varied technical projects and build up my skills!",
+    info: 'Whether it be building dev tools, wrapping my head around Vim, or contributing to open-source, I\'m always looking to tackle varied technical projects and build up my skills!',
+    info2: '',
     url: 'https://github.com/cdkini',
   },
 ];
