@@ -54,7 +54,7 @@ export const projectsData = [
     img: 'pypcmgr.PNG',
     title: 'pypcmgr',
     info: 'A dev tool used to set up automated static analysis and testing. Written in Python and published to PyPI.',
-    info2: 'Through working on larger OSS projects, I\'ve come to understand the importance of a strong CI/CD pipelines. As a frequent user of tools such as black, flake8, and pytest, I wanted a way to easily create pre-commit hooks with a single command.',
+    info2: 'As a frequent user of libraries such as black, flake8, and pytest, I wanted software that would help automate the creation of strong CI/CD pipelines. This tool helps the user easily create pre-commit hooks with a single command.',
     url: '',
     repo: 'https://github.com/cdkini/pypcmgr', // if no repo, the button will not show up
   },
