@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to work towards a more equitable, knowledgable dev community.",
+    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to solve increasingly challenging and interesting problems.",
   paragraphTwo:
-    'Although my formal education is in accounting, I caught the coding bug early in my career and have gradually pivoted towards software engineering. While my primary interests lie in backend development, I have experience with the entire stack, working in Python, Go, Java, JavaScript/TypeScript and frameworks such as ReactJS and Flask.',
+    'Although my formal education is in accounting, I picked up coding as a hobby early in my career and have gradually pivoted towards software engineering. While my primary interests lie in backend development, I have experience with the entire stack, working in Python, Go, Java, JavaScript/TypeScript and frameworks such as ReactJS, Django, and Flask.',
   paragraphThree:
     "I'm driven by solving complex, technical problems and am always seeking new challenges to help me hone my craft. If you'd like to learn more about my background, please see my resume and projects below.",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -54,7 +54,7 @@ export const projectsData = [
     img: 'pypcmgr.PNG',
     title: 'pypcmgr',
     info: 'A dev tool used to set up automated static analysis and testing. Written in Python and published to PyPI.',
-    info2: 'As a frequent user of libraries such as black, flake8, and pytest, I wanted software that would help automate the creation of strong CI/CD pipelines. This tool helps the user easily create pre-commit hooks with a single command.',
+    info2: 'As a frequent user of libraries such as black, flake8, and pytest, I wanted software that would help automate the creation of strong CI/CD pipelines. This tool generates pre-commit hooks with a single command.',
     url: '',
     repo: 'https://github.com/cdkini/pypcmgr', // if no repo, the button will not show up
   },
