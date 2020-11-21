@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to work towards a more equitable, knowledgable developer community.",
+    "Hey there! My name is Chetan Kini and for the past 2 years, I've been building open source software and collaborating with others to solve increasingly challenging and interesting problems.",
   paragraphTwo:
-    'Although my formal education is in accounting, I caught the coding bug early in my career and have gradually pivoted towards software engineering. While my primary interests lie in backend development, I have experience with the entire stack, working in Python, Go, Java, JavaScript/TypeScript and frameworks such as ReactJS and Flask.',
+    'Although my formal education is in accounting, I picked up coding as a hobby early in my career and have gradually pivoted towards software engineering. While my primary interests lie in backend development, I have experience with the entire stack, working in Python, Go, Java, JavaScript/TypeScript and frameworks such as ReactJS, Django, and Flask.',
   paragraphThree:
     "I'm driven by solving complex, technical problems and am always seeking new challenges to help me hone my craft. If you'd like to learn more about my background, please see my resume and projects below.",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -45,18 +45,20 @@ export const projectsData = [
     title: 'Omni',
     info: 'A CLI version control system written in Java.',
     info2:
-      "As someone that was a bit too reliant on memorizing Git workflows, I sought to better understand the software and its internals by recreating it. Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model while reinforcing concepts such as serialization and hashing.",
+      "As someone that struggles with Git from time to time, I sought to better understand the software and its internals by recreating it. Including standard DVCS functionality such as committing, branching, merging, and rebasing, this project taught me Git's internal object model while reinforcing concepts such as serialization and hashing.",
     url: 'https://repl.it/@ChetanKini/OmniPlayground',
     repo: 'https://github.com/cdkini/Omni', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'audiotherapy',
-    info: '',
-    info2: '',
+    img: 'pypcmgr.PNG',
+    title: 'pypcmgr',
+    info:
+      'A dev tool used to set up automated static analysis and testing. Written in Python and published to PyPI.',
+    info2:
+      'As a frequent user of libraries such as black, flake8, and pytest, I wanted software that would help automate the creation of strong CI/CD pipelines. This tool generates pre-commit hooks with a single command.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cdkini/pypcmgr', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -64,19 +66,18 @@ export const projectsData = [
     title: 'CareerBot',
     info: 'A Discord bot used to track job postings from Indeed.com. Written in Python.',
     info2:
-      "As an avid Discord user, I wanted to interact with the site's API to see if I could build anything useful. Although not overly complex, this bot has aided me in my job hunt and has even led to some freelance work, where I've helped different professional communities aggregate open opportunities.",
+      "As a frequent user of Discord (especially during quarantine), I decided to experiment with the API and come up with this little tool. If you're reading this, there's a chance that CareerBot is what brought us together!",
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/cdkini/CareerBot', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'cdkini.PNG',
     title: 'and more!',
-    info: 'Check out my GitHub for further information!',
-    info2:
-      "Whether it be building dev tools, writing APIs, or contributing to open-source, I'm always looking to use my skills to tackle varied technical projects!",
+    info:
+      "Whether it be building dev tools, wrapping my head around Vim, or contributing to open-source, I'm always looking to tackle varied technical projects and build up my skills!",
+    info2: '',
     url: 'https://github.com/cdkini',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
@@ -90,11 +91,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/ckini123',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
